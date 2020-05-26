@@ -1,0 +1,242 @@
+@import url("sources/font.css");
+
+/*pour Edge sinon nav est collé au titre*/
+@supports (-ms-ime-align:auto)
+{
+	nav
+	{
+		margin-top: 30px;
+	}
+}
+
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+    
+    nav
+	{
+		margin-top: 30px;
+	}
+
+	.galerie
+	{
+		width: 65%;
+		height: 100%;
+		background-size: 110%;
+		border-style: solid;
+		border-color: #ccf2ff;
+		border-radius: 5px;
+		align-self: center;
+	}
+}
+
+header
+{
+	text-align: center;
+	text-shadow: 2px 2px black;
+	font-family: 'acefuturism';
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 30px;
+}
+
+#logo_gauche
+{
+	margin-top: 20px;
+	float: left;
+	height: 120px;
+	width: 120px;
+}
+
+#logo_droit
+{
+	margin-top: 20px;
+	float: right;
+	height: 120px;
+	width: 120px;
+}
+
+h1
+{
+	margin: 0 0 0 0;
+	font-size: 400%;
+	color: rgb(227, 138, 42);
+}
+
+h2
+{
+	text-align: center;
+	font-family: 'acefuturism';
+	font-size: 250%;
+	margin: auto;
+}
+
+h3
+{
+	font-family: 'acefuturism';
+	font-size: 200%;
+	margin: auto;
+}
+
+nav
+{
+	text-align: center;
+	font-size: 225%;
+}
+
+.menu
+{
+	transition: 1s;
+	line-height: 20px;
+	font-size: 100%;
+}
+
+.menu:hover
+{
+	transition: 0.5s;
+	font-size: 110%;
+}
+
+body
+{
+	/*color: rgb(200, 115, 36);*/
+	color: #e69900;
+	background-image: url("images/carrefour.png");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-attachment: fixed;
+	background-color: #555;
+	padding: 0 8% 0 8%;
+	font-family: 'roboto';
+	font-size: 120%;
+	display: flex;
+	flex-flow: column;
+}
+
+section
+{
+	align-self: center;
+	width: 80%;
+}
+
+#image_accueil
+{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 2%;
+	max-width: 65%;
+	border-style: solid;
+	border-image: linear-gradient(#4dd2ff, #ccf2ff) 30;
+}
+
+.gal
+{
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	width: 100%;
+}
+
+figcaption
+{
+	background-color: rgba(128, 128, 128, .25);
+	border-radius: 5px;
+	align-self: center;
+	display: inline-block;
+	padding: 4px 8px 4px 8px;
+	border-radius: 10px;
+	text-shadow: 1px 1px rgba(0, 0, 0, .75);
+}
+
+.galerie
+{
+	width: 65%;
+	background-size: 110%;
+	border-style: solid;
+	border-color: #ccf2ff;
+	border-radius: 5px;
+	align-self: center;
+}
+
+#photos
+{
+	display: flex;
+	flex-wrap: wrap;
+
+}
+
+#serre
+{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+#serre1
+{
+	width: 49%;
+}
+
+#serre2
+ {
+ 	width: 49%;
+ }
+
+a,a:visited
+{
+	color: rgb(227, 138, 42); /*hex: #E38A2AFF*/
+	text-decoration: none;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+p
+{
+	text-align: justify;
+	background-color: rgba(16, 16, 16, .8);
+	padding: 4px 8px 4px 8px;
+	border-radius: 10px;
+	text-shadow: 1px 1px rgba(0, 0, 0, .75);
+}
+
+em
+{
+	font-style: italic;
+	text-decoration: underline;
+}
+
+#telechargement
+{
+	display: flex;
+	justify-content: center;
+}
+
+#Docs
+{
+	text-align: center;
+	margin-top: 15%;
+	font-size: 130%;
+	display: inline-block;
+}
+
+.bio
+{
+	display: flex;
+}
+
+.photo_groupe
+{
+	margin-top: 20px;
+	min-width: 180px;
+	min-height: 100px;
+	max-height: 250px;
+	width: 100%;
+	height: 100%;
+	margin-right: 2%;
+	border-radius: 100%;
+}
+
+.textbio
+{
+	height: 100%;
+}
